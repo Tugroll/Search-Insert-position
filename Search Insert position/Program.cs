@@ -25,16 +25,10 @@ namespace Search_Insert_position
             
             insert(instance, instance1);
 
-
-
-
         }
         public static int insert(int[] nums, int target)
         {
             Array.Sort(nums);
-
-            
-            
 
             if (nums.Contains(target))
             {
@@ -44,15 +38,10 @@ namespace Search_Insert_position
                     {
                         Console.WriteLine(i);
                         return i;
-                        
-
-                    }
-                    
+                    }      
                 }
             }else
             {
-
-
                 for (int i = 0; i < nums.Length; i++)
                 {
                     if (nums[i] > target)
